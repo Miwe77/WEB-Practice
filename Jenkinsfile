@@ -12,7 +12,7 @@ pipeline {
                  }
             }
             steps{
-                echo "The responsible of this project is ${AUTHOR} and and will be deployed in ${ENVIRONMENT}"
+                echo "The responsible of this project is ${AUTHOR} and it will be deployed in ${ENVIRONMENT}"
                 //Fisrt, drop the directory if exists
                 sh 'rm -rf /home/jenkins/web'
                 //Create the directory
